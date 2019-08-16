@@ -1,0 +1,16 @@
+.nav    {
+    background:#008080;
+    border-bottom: 5px solid #054950;
+    height:50px;
+  
+
+}
+
+.nav-link {
+    color:white;
+    font-variant: small-caps;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
