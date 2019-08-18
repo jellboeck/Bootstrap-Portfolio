@@ -1,36 +1,40 @@
 body{
     background-image: url(../dust_scratches/dust_scratches.png);
+    /* background-image: url(../sos/sos.png) */
+    /* background-image: url(../white-waves/white-waves.png) */
 }
 
 
 .name {
-    color: #76323F;
+    color: #ececec;
     margin: 0;
     float:left;
     padding:10px;
-    height: 60px;
-    background:#d5d5d5;
-    border-bottom: 5px solid #96858F;
-
+    height: 75px;
+    background:#13547a;
+    /* border-bottom: 5px solid #ff9a9e ; */
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .nav    {
-    background: #9099A2;
-    border-bottom: 5px solid #d5d5d5;
-    padding: 5px;
-    height:60px;
-    opacity: 75%;
+    background:#13547a;
+    /* border-bottom: 5px solid #ff9a9e ; */
+    padding: 10px;
+    height:75px;
+    opacity: 50%;
 
   
 
 }
 
 .nav-link {
-    color:white;
+    color:#ececec;
     font-variant: small-caps;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: bolder;
+    font-size: 23px;
     
     
 }
@@ -41,9 +45,25 @@ body{
 }
 
 .nav-link:hover {
-    color: #76323F;
+    color: white;
 }
 
+footer {
+    background:#13547a;
+    height:65px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.connect{
+    margin-top: 20px;
+    text-align: center;
+    color:#13547a;
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: bold;
+}
 
 .card {
 margin-top: 15px;
