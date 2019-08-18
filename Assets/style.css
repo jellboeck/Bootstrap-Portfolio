@@ -1,7 +1,6 @@
 body{
     background-image: url(../dust_scratches/dust_scratches.png);
-    /* background-image: url(../sos/sos.png) */
-    /* background-image: url(../white-waves/white-waves.png) */
+
 }
 
 
@@ -60,9 +59,19 @@ footer {
 .connect{
     margin-top: 20px;
     text-align: center;
+    font-size: 34px;
     color:#13547a;
     font-family: 'Montserrat' , sans-serif;
     font-weight: bold;
+}
+
+.connect_logos {
+    width: 80px;
+    margin:20px;
+}
+
+.connect_logos:hover {
+    opacity:.5;
 }
 
 .card {
