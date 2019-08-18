@@ -1,6 +1,6 @@
 body{
     background-image: url(../dust_scratches/dust_scratches.png);
-    margin-bottom: 100px;
+    position: relative;
 }
 
 
@@ -40,11 +40,14 @@ body{
 
 .nav-link li + li:before {
     content: "|";
-    padding: 15px;
+    padding: 10px;
 }
 
 .nav-link:hover {
-    color: white;
+    background:white;
+    border-radius: 15px; 
+    color: #09203f;
+
 }
 #bio-pic {
     width:300px;
@@ -72,17 +75,6 @@ body{
     background-image: linear-gradient(#09203f,#14547a);
 }
 
-footer {
-    background:#13547a;
-    height:65px;
-    position: fixed;
-    bottom: 0;
-    left:0;
-    right:0;
-    width: 100%;
-}
-
-
 .connect{
     margin-top: 20px;
     text-align: center;
@@ -98,20 +90,41 @@ footer {
 }
 
 .connect_logos:hover {
-    opacity:.5;
+    opacity:.65;
 }
 
 .connect_form {
-    padding: 40px;
-    height:350px;
-    margin-bottom:50px;
-    margin-top:50px;
+
     background-image: linear-gradient(#09203f,#14547a);
+    border-radius: 10px;
     color:white;
     font-family: 'Montserrat' , sans-serif;
     font-weight: bold;
+    height:375px;
+    margin-bottom:75px;
+    margin-left:25%;
+    margin-top:25px;
+    margin-right:25%;
+    padding: 20px;
+ 
+    /* opacity:.85; */
 
 }
+
+
+footer {
+    background:#13547a;
+    height:50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    
+
+}
+
+
+
 
 
 .card {
