@@ -1,7 +1,26 @@
+body{
+    background-image: url(../dust_scratches/dust_scratches.png);
+}
+
+
+.name {
+    color: #76323F;
+    margin: 0;
+    float:left;
+    padding:10px;
+    height: 60px;
+    background:#d5d5d5;
+    border-bottom: 5px solid #96858F;
+
+}
+
 .nav    {
-    background:#008080;
-    border-bottom: 5px solid #054950;
-    height:50px;
+    background: #9099A2;
+    border-bottom: 5px solid #d5d5d5;
+    padding: 5px;
+    height:60px;
+    opacity: 75%;
+
   
 
 }
@@ -13,6 +32,16 @@
     font-weight: bold;
     font-size: 20px;
     
+    
+}
+
+.nav-item li + li:before {
+    content: "|";
+    padding: 15px;
+}
+
+.nav-link:hover {
+    color: #76323F;
 }
 
 
