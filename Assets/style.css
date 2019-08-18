@@ -1,5 +1,5 @@
 body{
-    background-image: url(../dust_scratches/dust_scratches.png);
+    background-image: url(Images/dust_scratches.png);
     margin-bottom: 75px;
 }
 
@@ -11,7 +11,7 @@ body{
     padding:10px;
     height: 75px;
     background:#13547a;
-    /* border-bottom: 5px solid #ff9a9e ; */
+    border-bottom: 3px solid #09203f;
     font-family: 'Kaushan Script', cursive;
     font-size: 40px;
     font-weight: bold;
@@ -19,7 +19,7 @@ body{
 
 .nav    {
     background:#13547a;
-    /* border-bottom: 5px solid #ff9a9e ; */
+    border-bottom: 3px solid #09203f;
     padding: 10px;
     height:75px;
 
@@ -27,14 +27,10 @@ body{
 
 .nav-link {
     color:#ececec;
-    /* font-variant: small-caps; */
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     font-size: 23px;
-    margin-top:15px;
-    display: inline;
-    
-    
+    display: inline; 
 }
 
 .nav li + li:before {
@@ -51,18 +47,12 @@ body{
 
 }
 #bio-pic {
-    width:350px;
-    border: 2px;
+    width:100%;
+    margin-top:30px;
 }
 
 .container {
     margin:0;
-}
-
-#bio-pic {
-
-    margin-top:30px;
-
 }
 
 #skills{
